@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nishant.edwisor_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".View" />
+        <activity android:name=".Delhi" />
+        <activity android:name=".Mumbai" />
+        <activity android:name=".Ahmedabad" />
+        <activity android:name=".Lucknow" />
+        <activity android:name=".Hyderabad" />
+        <activity android:name=".Bangalore" />
+        <activity android:name=".Chennai" />
+        <activity android:name=".Kolkata" />
+        <activity android:name=".Gallery_delhi" />
+        <activity android:name=".Gallery_ahmedabad" />
+        <activity android:name=".Gallery_bangalore" />
+        <activity android:name=".Gallery_chennai" />
+        <activity android:name=".Gallery_lucknow" />
+        <activity android:name=".Gallery_hyderabad" />
+        <activity android:name=".Gallery_kolkata" />
+        <activity android:name=".Gallery_mumbai" />
+        <activity android:name=".Famous_delhi" />
+        <activity android:name=".Famous_mumbai" />
+        <activity android:name=".Famous_kolkata" />
+        <activity android:name=".Famous_hyderabad" />
+        <activity android:name=".Famous_chennai" />
+        <activity android:name=".Famous_lucknow" />
+        <activity android:name=".Famous_ahmedabad" />
+        <activity android:name=".Famous_bangalore" />
+        <activity android:name=".Addnew"></activity>
+    </application>
+
+</manifest>
